@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-nadheeshwaran
+  namespace: nadheesh
+  labels:
+    app: nadheeshwaran
+spec:
+  replicas: 0
+
+  selector:
+    matchLabels:
+      app: nadheeshwaran
+  template:
+    metadata:
+      labels:
+        app: nadheeshwaran
+    spec:
+      containers:
+      - name: nadheeshwaran
+        image: kbrajeshwaran/nadheesh:v.0.0
+        ports:
+        - containerPort: 80
