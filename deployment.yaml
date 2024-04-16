@@ -6,7 +6,7 @@ metadata:
   labels:
     app: nadheeshwaran
 spec:
-  replicas: 10
+  replicas: 2
 
   selector:
     matchLabels:
