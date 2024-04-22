@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: my-nadheeshwaran-svc
-  namespace: nadheesh
+  namespace: nadhees
   labels:
     app: nadheeshwaran
 spec:
