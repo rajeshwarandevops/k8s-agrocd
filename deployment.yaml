@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-nadheeshwaran
-  namespace: nadhees
+  namespace: nadheesh
   labels:
     app: nadheeshwaran
 spec:
