@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: nadheeshwaran
-        image: kbrajeshwaran/nadheesh:v.0.0
+        image: kbrajeshwaran/rishi:v.0.0
         ports:
         - containerPort: 80
